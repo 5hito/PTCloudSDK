@@ -2,10 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "PTCloudSDK"
-  s.version      = "0.0.6"
+  s.version      = "0.1.0"
   s.summary      = "基本使用功能"
   s.description  = <<-DESC
     0.0.x:基础功能合集使用
+    0.1.0:bitcode
                    DESC
 
   s.homepage     = "https://github.com/5hito/PTCloudSDK"
