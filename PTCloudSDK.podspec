@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PTCloudSDK"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "基本使用功能"
   s.description  = <<-DESC
     0.0.x:基础功能合集使用
@@ -21,8 +21,12 @@ Pod::Spec.new do |s|
 
   s.resources = 'lib/Resources/*.bundle'
   s.source_files = 'lib/Header/*.h'
-  s.ios.vendored_libraries = 'lib/libPTCloudSDK.a'
+  s.ios.vendored_libraries = 'lib/libPartnerSDK.a'
 
-  s.dependency "AVOSCloud"
+  s.dependency "AFNetworking"
+  s.dependency "UMCCommon"
+  s.dependency "UMCAnalytics"
+  s.dependency "UMCSecurityPlugins"
+  s.dependency "UMCPush"
 
 end
