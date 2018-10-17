@@ -14,5 +14,8 @@
 + (instancetype)sharedSDK;
 
 + (void)showPrivacyViewController:(UIViewController*)rootController;
++ (void)applicationDidFinishLaunching:(UIWindow *)window withUmengKey:(NSString*)umengKey withCloudApplicationId:(NSString*)applicationId clientKey:(NSString *)clientKey;
+
++ (void)applicationDidRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 
 @end
